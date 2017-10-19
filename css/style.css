@@ -530,6 +530,7 @@ form li {
 input{
   margin-top: 0.5em;
   background-color: white;
+  Vertically align: text-top;
 }
 
 button {
