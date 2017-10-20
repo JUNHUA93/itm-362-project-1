@@ -501,6 +501,13 @@ template {
     font-size: 1.5em;
   }
   }
+
+@media screen and (min-width: 500px;){
+  input{
+    display: inline-block;
+    font-size: 1.5em;
+  }
+  }
 /*My style.css*/
 html {
   font-family: 'Sofia', sans-serif;
@@ -527,10 +534,17 @@ form li {
   padding-bottom: 1em;
 }
 
+label, input {
+    margin-top: 0.5em;
+    display: inline-block;
+    vertical-align: baseline;
+    width: 125px;
+}
+
 input{
-  margin-top: 0.5em;
-  background-color: white;
-  Vertically align: text-top;
+    background-color:#e8eeef;
+	border: 2px solid #e8eeef;
+	width: 15%;
 }
 
 button {
